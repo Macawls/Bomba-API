@@ -20,6 +20,7 @@ export const add = async (context) => {
 
   return context.json({
     inDeletionQueue: true,
-    joinCode: data[0]
+    joinCode: data[0],
+    error: "none"
   });
 };

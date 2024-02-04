@@ -21,10 +21,12 @@ export const check = async (context) => {
   if (data.length === 0){
     return context.json({
       inDeletionQueue: false,
+      error: "none"
     })
   }
 
   return context.json({
-    inDeletionQueue: true
+    inDeletionQueue: true,
+    error: "none"
   });
 };

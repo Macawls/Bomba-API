@@ -1,0 +1,16 @@
+{
+  "title": "Bomba",
+  "heading": "Bomba",
+  "message": "Play it NOW for FREE! 🤯",
+  "imageSrc": "https://img.itch.zone/aW1nLzEyODg1OTQ3LnBuZw==/347x500/nahUWd.png",
+  "links": {
+    "itch": "https://macawls.itch.io/bomba",
+    "googlePlay": "https://play.google.com/store"
+  },
+  "colors": {
+    "bg": "#d7c7bb",
+    "card": "#fef5e3",
+    "heading": "#27272D",
+    "text": "#907f72"
+  }
+}

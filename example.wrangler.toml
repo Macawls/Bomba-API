@@ -1,0 +1,23 @@
+name = "bomba-service"
+compatibility_date = "2023-12-01"
+
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = "./src/public"
+
+[env.production.vars]
+JOIN_CODE_TTL = "66"
+API_AUTH_KEY = ""
+
+SUPABASE_PROJECT_ID = ""
+SUPABASE_URL = ""
+SUPABASE_MANAGEMENT_TOKEN = ""
+SUPABASE_API_KEY = ""
+
+TRIGGER_API_URL = "https://api.trigger.dev"
+TRIGGER_API_KEY = ""
+
+[route]
+pattern = "bomba.macawls.dev"
+custom_domain = true

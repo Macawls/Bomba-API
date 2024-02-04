@@ -1,0 +1,25 @@
+{
+  "name": "bomba",
+  "scripts": {
+    "dev": "npx wrangler dev src/index.js",
+    "deploy": "wrangler deploy --minify src/index.js --env production",
+    "trigger-client": "npx @trigger.dev/cli@latest dev --client-id hono-client -p 8787",
+    "build": "npx wrangler deploy --dry-run --outdir dist"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "@trigger.dev/hono": "^2.3.17",
+    "@trigger.dev/sdk": "^2.3.17",
+    "@trigger.dev/supabase": "^2.3.17",
+    "hono": "^3.12.7"
+  },
+  "devDependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.1",
+    "@trigger.dev/cli": "^2.3.17",
+    "wrangler": "^3.22.0"
+  },
+  "trigger.dev": {
+    "endpointId": "bomba-pE-l"
+  },
+  "type": "module"
+}

@@ -42,14 +42,6 @@ Join codes are deleted after a specified duration set in the ```wrangler.toml```
 
 The API will only work with an authentication key of which only I have access to.
 
-### Security
-
-[Relevant Forum Post](https://discussions.unity.com/t/is-unity-remote-settings-secure/194993)
-
-Technically Unity Remote Config isn't fully secure, but I feel its a decent enough workaround. 
-There's very little incentive to be malicious (I hope 😶).
-
-
 ## Running Locally
 
 Start the wrangler dev server
